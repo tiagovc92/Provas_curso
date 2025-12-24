@@ -15,8 +15,8 @@ class conta_bancaria:
         else :
             print("saldo insuficiente ou valor inválido ")
     def exibir_saldo (self):
-        print(f" titular: {self._titular}.")
-        print(f" Saldo atual: {self._saldo}")
+        print(f" titular: {self.titular}.")
+        print(f" Saldo atual: {self.saldo}")
         
         
 conta = conta_bancaria("Tago", 10000)
